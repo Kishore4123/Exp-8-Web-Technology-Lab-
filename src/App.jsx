@@ -180,7 +180,7 @@ function Register() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <header>
         <h1>VSN & SONS Travel Agency</h1>
         <nav>
